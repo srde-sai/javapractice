@@ -15,7 +15,7 @@ public class MapsPractice {
         System.out.println(map.entrySet());
         System.out.println(map.containsKey(5));
 
-
+    map.forEach((a, b) -> System.out.println(a + "" + b));
 
 
     }
